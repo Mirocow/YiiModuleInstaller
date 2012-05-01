@@ -5,8 +5,6 @@ class UploadForm extends CFormModel
 
      public function rules(){
         return array(
-            //устанавливаем правила для файла, позволяющие загружать
-            // только картинки!
             array('archive', 'file', 'types'=>'zip'),
         );
     }

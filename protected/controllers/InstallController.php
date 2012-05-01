@@ -29,7 +29,7 @@ class InstallController extends CController
 	{
 		$this->_pack($moduleName);
 
-		$this->redirect( Yii::app()->baseUrl);
+		$this->redirect( Yii::app()->baseUrl . '/uploads/' . $moduleName. '.zip');
 
 	}
 

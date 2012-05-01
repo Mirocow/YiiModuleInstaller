@@ -9814,3 +9814,243 @@ Stack trace:
 #1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /var/www/work.my/www/install/index.php(14): CApplication->run()
 #3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-dropdown.js
+2012/05/01 17:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-transition.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-transition.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-scrollspy.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-scrollspy.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tooltip.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tooltip.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tab.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tab.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-modal.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-modal.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-alert.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-alert.js
+2012/05/01 17:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-dropdown.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-dropdown.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-popover.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-popover.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-button.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-button.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-collapse.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-collapse.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-typeahead.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-typeahead.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-carousel.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-carousel.js
+2012/05/01 17:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/jquery.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/jquery.js
+2012/05/01 17:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/ico/favicon.ico".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('assets/ico/favi...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/assets/ico/favicon.ico
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-transition.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-transition.js
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-scrollspy.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-scrollspy.js
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tab.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tab.js
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-alert.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-alert.js
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-modal.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-modal.js
+2012/05/01 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-dropdown.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-dropdown.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tooltip.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tooltip.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-popover.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-popover.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-button.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-button.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-carousel.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-carousel.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-collapse.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-collapse.js
+2012/05/01 17:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-typeahead.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-typeahead.js
+2012/05/01 17:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/jquery.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/jquery.js
+2012/05/01 21:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-transition.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-transition.js
+2012/05/01 21:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-modal.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-modal.js
+2012/05/01 21:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/jquery.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/jquery.js
+2012/05/01 21:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-dropdown.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-dropdown.js
+2012/05/01 21:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-scrollspy.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-scrollspy.js
+2012/05/01 21:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-alert.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-alert.js
+2012/05/01 21:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tooltip.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tooltip.js
+2012/05/01 21:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-collapse.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-collapse.js
+2012/05/01 21:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-popover.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-popover.js
+2012/05/01 21:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-tab.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-tab.js
+2012/05/01 21:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-typeahead.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-typeahead.js
+2012/05/01 21:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-button.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-button.js
+2012/05/01 21:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/js/bootstrap-carousel.js".' in /var/www/work.my/www/framework/system/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/work.my/www/framework/system/web/CWebApplication.php(136): CWebApplication->runController('themes/bootstra...')
+#1 /var/www/work.my/www/framework/system/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/work.my/www/install/index.php(14): CApplication->run()
+#3 {main} REQUEST_URI=/install/themes/bootstrap/js/bootstrap-carousel.js

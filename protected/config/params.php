@@ -19,8 +19,6 @@ return array(
 
 	'modulesFolder' => dirname(__FILE__).'/../../../protected/modules',
 
-	'widgetsFolder' => '',
-
 	'uploadsFolder' => dirname(__FILE__).'/../../uploads',
 	
 );
