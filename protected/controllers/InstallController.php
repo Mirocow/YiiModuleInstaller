@@ -17,9 +17,10 @@ class InstallController extends CController
 			$form->archive = CUploadedFile::getInstance($form,'archive');
 			$form->archive->saveAs(Yii::app()->params['uploadsFolder'] . '/' . $form->archive);
 
-			$this->_unpack($form->archive);
+			$moduleFolder = $this->_unpack($form->archive);
+			$this->_executeSql($moduleFolder);
+			Yii::app()->user->setFlash('success', Yii::t("install", "Modue installed"));
 		}
-
 		$this->render('index', array(
 			'form' => $form
 		));
@@ -28,9 +29,59 @@ class InstallController extends CController
 	public function actionBuild($moduleName)
 	{
 		$this->_pack($moduleName);
-
+		Yii::app()->user->setFlash('success', Yii::t("install", "Modue builded"));
 		$this->redirect( Yii::app()->baseUrl . '/uploads/' . $moduleName. '.zip');
 
+	}
+
+	public function actionUninstall($moduleName)
+	{
+		if (!is_dir(Yii::app()->params['modulesFolder'] . '/' . $moduleName))
+		{
+			Yii::app()->user->setFlash('error', Yii::t("install", "Not removed"));
+			$this->redirect(Yii::app()->baseUrl);
+		}
+
+		$this->_executeSql($moduleName, 'uninstall');
+
+		$this->_removeDir(Yii::app()->params['modulesFolder'] . '/' . $moduleName);
+
+		Yii::app()->user->setFlash('success', Yii::t("install", "Modue removed"));
+		$this->redirect(Yii::app()->baseUrl);
+	}
+
+	private function _executeSql($moduleName, $type = 'install')
+	{
+
+		if (file_exists(Yii::app()->params['modulesFolder'] . '/' . $moduleName . "/install/" . $type . ".sql"))
+		{
+			$fileName = Yii::app()->params['modulesFolder'] . '/' . $moduleName . "/install/".$type.".sql";
+			$fh = fopen($fileName, "r");
+			$content = fread($fh, filesize($fileName));
+			
+			$sqls = explode(';\n', $content);
+		
+			if(count($sqls))
+			{
+				foreach ($sqls as $sql) 
+				{
+					$command=Yii::app()->db->createCommand($sql);
+					$command->execute();
+				}
+			}
+		}
+	}
+
+	private function _removeDir($path)
+	{
+		if ($objs = glob($path."/*")) 
+		{
+	        foreach($objs as $obj) 
+	        {
+	            is_dir($obj) ? $this->_removeDir($obj) : unlink($obj);
+	        }
+	    }
+	    rmdir($path);
 	}
 
 	private function _unpack($archiveName)
@@ -49,6 +100,7 @@ class InstallController extends CController
 		}
 	                    
 	    $archive->close();
+	    return $moduleName;
 	}
 
 	private function _pack($moduleName)
@@ -58,13 +110,14 @@ class InstallController extends CController
 
 	private function _zip($source, $destination)
 	{
-	    
+	
 	    $zip = new ZipArchive();
 
-	    if (!$zip->open($destination, ZIPARCHIVE::CREATE)) {
+	    if (!$zip->open($destination, ZIPARCHIVE::CREATE)) 
+	    {
 	        return false;
 	    }
-
+	   
 	    if (is_dir($source) === true)
 	    {
 	        $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source), RecursiveIteratorIterator::SELF_FIRST);

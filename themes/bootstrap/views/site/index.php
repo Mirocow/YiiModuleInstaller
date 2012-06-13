@@ -15,10 +15,11 @@
 		<tr>
 			<td>
 				<h3><?php echo $module['title'] ?></h3>
-				<p><?php echo $module['description'] ?></p>
+				<p><?php echo $module['description'] ?><b><?php echo $module['version'] ?></b></p>
 			</td>
-			<td>
+			<td style="width: 250px;">
 				<?php echo CHtml::link('Упаковать', Yii::app()->baseUrl.'/install/build/'.$key, array('class' => 'btn btn-primary')) ?>
+				<?php echo CHtml::link(Yii::t('install', 'Uninstall'), Yii::app()->baseUrl.'/install/uninstall/'.$key, array('class' => 'btn btn-primary')) ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>

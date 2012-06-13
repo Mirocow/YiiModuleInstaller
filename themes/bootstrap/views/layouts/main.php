@@ -39,6 +39,14 @@
 		</div>
 
 		<div class="container">
+			<?php
+			    foreach(Yii::app()->user->getFlashes() as $key => $message): ?>
+			        <div class="alert alert-<?php echo $key?>">
+					  <a class="close" data-dismiss="alert" href="#">×</a>
+					  <?php echo $message; ?>
+					</div>
+			    
+			<?php endforeach;?>
 			<?php echo $content; ?>
 		</div> <!-- /container -->
 

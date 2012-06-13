@@ -5,9 +5,13 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-return array(
+$mainConfig = include dirname(__FILE__).'/../../../protected/config/main.php';
+return  array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Yii Blog Demo',
+
+	'sourceLanguage' => 'en',
+
+	'language' => 'ru',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -33,16 +37,9 @@ return array(
 			'tablePrefix' => 'tbl_',
 		),*/
 		// uncomment the following to use a MySQL database
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
-			'tablePrefix' => 'tbl_',
-		),
-		*/
+		
+		'db'=>$mainConfig['components']['db'],
+		
 		/*'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
@@ -55,6 +52,7 @@ return array(
         		'posts/<tag:.*?>'=>'post/index',
         		*/
         		'install/build/<moduleName:\w+>'=>'install/build',
+        		'install/uninstall/<moduleName:\w+>'=>'install/uninstall',
         		'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
         		
         	),
