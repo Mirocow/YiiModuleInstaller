@@ -8,7 +8,7 @@
 * Указать актуальный путь к фреймворку(к yii.php) в файле /install/index.php
 * Указать актуальные пути в файле /install/config/params.php (modulesFolder, uploadsFolder)
 
-Больше информации [тут](http://tvorzasp.com/instalyator-modulei-dlya-yii)
+Больше информации [тут](http://tvorzasp.com/blog/instalyator-modulei-dlya-yii)
 
 ## Внимание!
 
@@ -17,6 +17,8 @@
 ## Обновления
 
 ### 13.06.2012
+
+Версия 0.1.1
 
 * Новая плюшка: в папку install можно положить файлы install.sql и uninstall.sql которые выполнятся в нужный момент. 
 * Теперь модули можно удалять совсем. 
